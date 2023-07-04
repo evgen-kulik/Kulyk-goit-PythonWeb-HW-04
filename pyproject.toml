@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hw-4-python-web"
+version = "0.1.0"
+description = ""
+authors = ["evgen-kulik <e.kulik.atom@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_4_python_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
